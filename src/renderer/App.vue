@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'im-project'
+    name: 'electron-im'
   }
 </script>
 

@@ -5,11 +5,11 @@ process.env.NODE_ENV = 'production'
 const { say } = require('cfonts')
 const chalk = require('chalk')
 const del = require('del')
-const packager = require('electron-packager')
+const { spawn } = require('child_process')
 const webpack = require('webpack')
 const Listr = require('listr')
 
-const buildConfig = require('./build.config')
+
 const mainConfig = require('./webpack.main.config')
 const rendererConfig = require('./webpack.renderer.config')
 const webConfig = require('./webpack.web.config')
@@ -112,18 +112,6 @@ function pack (config) {
         }))
       }
     })
-  })
-}
-
-function bundleApp () {
-  buildConfig.mode = 'production'
-  packager(buildConfig, (err, appPaths) => {
-    if (err) {
-      console.log(`\n${errorLog}${chalk.yellow('`electron-packager`')} says...\n`)
-      console.log(err + '\n')
-    } else {
-      console.log(`\n${doneLog}\n`)
-    }
   })
 }
 
