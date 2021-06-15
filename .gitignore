@@ -12,6 +12,17 @@ bin-release/
 *.air
 *.ipa
 *.apk
+.DS_Store
+
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+node_modules/
+npm-debug.log
+npm-debug.log.*
+thumbs.db
+!.gitkeep
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
