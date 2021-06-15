@@ -1,25 +1,28 @@
-# im-project
+# electron-IM
 
-> a cheat tool
+> 基于electron和electron-vue的聊天工具
 
-#### Build Setup
+## 安装方法
 
 ``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:9080
-npm run dev
+npm install -g yarn
 
-# build electron application for production
-npm run build
+yarn install
+
+# 热更新地址: localhost:9080
+yarn run dev
+
+# 构件生产
+yarn run build
 
 
-# lint all JS/Vue component files in `src/`
-npm run lint
+# lint 'src/'目录下所有的JS/Vue文件
+yarn run lint
 
 ```
 
 ---
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8d4ed60](https://github.com/SimulatedGREG/electron-vue/tree/8d4ed607d65300381a8f47d97923eb07832b1a9a) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+该项目使用通过[electron-vue](https://github.com/SimulatedGREG/electron-vue) 使用 [vue-cli](https://github.com/vuejs/vue-cli)构建
+在[这里](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html)可以看到相关文档.
