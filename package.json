@@ -14,8 +14,7 @@
     "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
-    "postinstall": "npm run lint:fix",
-    "install": "set ELECTRON_MIRROR=https://repo.huaweicloud.com/electron/ && node ./node_modules/electron/install.js"
+    "postinstall": "npm run lint:fix"
   },
   "main": "./dist/electron/main.js",
   "dependencies": {
