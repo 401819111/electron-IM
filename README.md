@@ -13,7 +13,7 @@ yarn config set registry https://repo.huaweicloud.com/repository/npm/
 
 # 或者设置yarn淘宝源
 yarn config set registry https://registry.npm.taobao.org/
-# 这两个源都存在可能没更新electron版本的问题,灵活切换使用
+# 这两个源都存在可能没更新electron版本的问题,灵活切换使用 
 
 # 安装依赖
 yarn install
@@ -42,5 +42,11 @@ export ELECTRON_CUSTOM_DIR="{{ version }}"
 set ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 set ELECTRON_CUSTOM_DIR="{{ version }}"
 ```
+
+## TODO:
+- [ ] 语音输入、聊天
+- [ ] 富文本式聊天内容
+- [ ] 表情导入
+- [ ] 机器人接入
 
 该项目通过[electron-vue](https://github.com/SimulatedGREG/electron-vue)构建,在[这里](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html)可以看到相关文档.
