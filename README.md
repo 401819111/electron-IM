@@ -48,5 +48,6 @@ set ELECTRON_CUSTOM_DIR="{{ version }}"
 - [ ] 富文本式聊天内容
 - [ ] 表情导入
 - [ ] 机器人接入
+- [ ] 同步qq消息
 
 该项目通过[electron-vue](https://github.com/SimulatedGREG/electron-vue)构建,在[这里](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html)可以看到相关文档.

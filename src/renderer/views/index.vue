@@ -1,14 +1,19 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <msgList></msgList>
+  </div>
 </template>
 
 <script>
-  export default {
-    components: {},
-    props: {},
-    data() {
-      return {}
+  import msgList from '@/components/msgList/index'
+export default {
+    components: {
+      msgList
     },
+    props: {},
+    data () {
+      return {}
+  },
     methods: {}
   }
 </script>

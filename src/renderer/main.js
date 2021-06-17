@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import axios from 'axios'
 
-import './assets/style/tailwind.css'
+import 'normalize.css/normalize.css'
+import './assets/style/public.scss'
 
 import App from './App'
 import router from './router'
