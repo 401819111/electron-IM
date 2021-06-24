@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: '/',
-      component: require('@/views/index').default
+      component: require('@/views/chat/index').default
     },
     {
       path: '*',

@@ -1,19 +1,21 @@
 <template>
   <div class="container">
-    
+    <leftPanel />
   </div>
 </template>
 
 <script>
-export default {
+  import leftPanel from './components/leftPanel.vue';
+  export default {
     components: {
+      leftPanel
     },
     props: {},
-    data () {
-      return {}
-  },
+    data() {
+      return {};
+    },
     methods: {}
-  }
+  };
 </script>
 
 <style lang="scss" scoped></style>

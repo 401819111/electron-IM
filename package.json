@@ -16,7 +16,6 @@
   },
   "main": "./dist/electron/main.js",
   "dependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.2",
     "axios": "^0.18.0",
     "normalize.css": "^8.0.1",
     "vue": "^2.5.16",
