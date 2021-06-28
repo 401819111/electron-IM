@@ -1,6 +1,6 @@
 # electron-IM
 
-> 基于electron和electron-vue的聊天工具
+> 基于electron-vue和elementUI的聊天工具
 
 ## 安装方法
 
@@ -29,6 +29,15 @@ yarn run lint
 
 ```
 
+```bash
+#安装mockm
+npm i -g mockm
+
+#启动mockm 
+mm
+
+
+```
 ---
 
 ### 淘宝源可能会用到

@@ -1,6 +1,6 @@
 <template>
   <div class='container'>
-
+111
   </div>
 </template>
   
@@ -38,7 +38,15 @@
         }]
       }
     },
+    mounted(){
+      this.getChat()
+    },
     methods: {
+      getChat(){
+        this.$api.chatList({}).then(res=>{
+          // console.log(res)
+        })
+      }
     },
   };
 </script>
