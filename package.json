@@ -12,13 +12,18 @@
     "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
-    "postinstall": "npm run lint:fix"
+    "postinstall": "npm run lint:fix",
+    "lint:fix": "",
+    "============启动mockm=============": "",
+    "mockm": "./node_modules/.bin/mockm"
   },
   "main": "./dist/electron/main.js",
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.15.2",
+    "mockm": "^1.1.25-alpha.12",
     "normalize.css": "^8.0.1",
+    "swiper": "5.4.5",
     "vue": "^2.5.16",
     "vue-clipboard2": "^0.3.1",
     "vue-electron": "^1.0.6",

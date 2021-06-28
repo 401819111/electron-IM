@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <leftPanel />
+    <chatPanel />
   </div>
 </template>
 
 <script>
-  import leftPanel from './components/leftPanel.vue';
+  import chatPanel from './components/chatPanel.vue';
   export default {
     components: {
-      leftPanel
+      chatPanel
     },
     props: {},
     data() {

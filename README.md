@@ -30,17 +30,18 @@ yarn run lint
 ```
 
 ```bash
-#安装mockm
-npm i -g mockm
+#启动mockm
+npm run mockm
 
-#启动mockm 
-mm
-
+#mockm数据定义在根目录的mm.config.js中,语法和mock.js相同
 
 ```
+
+[mockm文档地址](https://www.hongqiye.com/doc/mockm/)
+
 ---
 
-### 淘宝源可能会用到
+### 可能会用到淘宝源
 
 ```bash
 # mac/linux
@@ -52,7 +53,8 @@ set ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 set ELECTRON_CUSTOM_DIR="{{ version }}"
 ```
 
-## TODO:
+## TODO
+
 - [ ] 语音聊天
 - [ ] 富文本式聊天内容
 - [ ] 类似于qq撤回的编辑功能

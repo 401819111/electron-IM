@@ -11,7 +11,6 @@ import 'element-ui/lib/theme-chalk/index.css';
 import 'normalize.css/normalize.css'
 import './assets/style/public.scss'
 
-// import '@/mock/mock'
 import App from './App'
 import router from './router'
 import store from './store'
